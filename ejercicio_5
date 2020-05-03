@@ -1,0 +1,6 @@
+#trabajo_5
+
+import statistics as stats
+input ("poner edades: ")
+edades  = ['']
+print  = (stats.median(edad
