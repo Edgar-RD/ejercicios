@@ -1,0 +1,14 @@
+alphabet = ("a", "e", "i", "o", "u")
+
+user_in = input ("inserte texto: ")
+user_in = user_in.lower()
+print("su texto nuevo: {} ".format(user_in))
+
+new_user_in = ""
+
+for letters in user_in:
+    if letters not in alphabet:
+           new_user_in = new_user_in + letters
+           
+print(" texto sin vocales : {}".format(new_user_in))
+print(len(new_user_in))
