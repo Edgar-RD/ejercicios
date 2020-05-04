@@ -1,0 +1,9 @@
+respuesta = "GINE"
+while True:
+    variable = input("¿cual es el nombre de la mama de goku?: ")
+    variable = variable.upper()
+    if variable == respuesta:
+        print("asi es gine es su nombre")
+        break
+    else:
+        print("incorrrecto intente de nuevo")
