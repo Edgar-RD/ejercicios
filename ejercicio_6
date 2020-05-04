@@ -1,0 +1,4 @@
+archivo = open(input("ingrese el archivo con extencion: "),"a")
+palabra = input("escriva una palabra: ")
+archivo.write(palabra +"\n")
+archivo.close()
